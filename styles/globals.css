@@ -40,3 +40,9 @@ a {
   font-size: inherit;
   line-height: inherit;
 }
+
+button {
+  padding: 0;
+  border: none;
+  background-color: transparent;
+}
