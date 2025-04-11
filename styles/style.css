@@ -17,6 +17,7 @@
   grid-template-rows: 1fr min-content 1fr;
   align-items: center;
   height: 100vh;
+  min-height: 668px;
   padding: 10px;
 }
 
@@ -67,7 +68,7 @@
   width: 9px;
   height: 9px;
   background-color: var(--accent-color, #ff0070);
-  box-shadow: 0 0 4px var(--accent-color, #ff0070);
+  box-shadow: 0 0 4px 2px var(--accent-color, #ff0070);
   border-radius: 50%;
 }
 
@@ -154,11 +155,11 @@
 }
 
 .text-link:focus-visible {
-  border: 1px solid var(--border-color);
+  border: 1px solid var(--link-border-color);
 }
 
 .text-link:hover {
-  border-block-end: 1px solid var(--border-color);
+  border-block-end: 1px solid var(--link-border-color);
 }
 
 .content {
@@ -228,6 +229,7 @@
   position: relative;
   display: flex;
   height: 100vh;
+  min-height: 668px;
   align-items: center;
   justify-content: center;
 }
